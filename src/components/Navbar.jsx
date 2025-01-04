@@ -5,16 +5,16 @@ import { IoMdMenu } from "react-icons/io";
 const Navbar = () => {
 
     const navlist = <>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Services</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Projects</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#skills">Projects</a></li>
+        <li><a href="#skills">Contact</a></li>
     </>
 
 
     return (
-        <div className="sticky top-0 z-50 backdrop-blur-2xl w-full">
+        <div className="sticky top-0 z-50 bg-[#212643] w-full">
             <div className="navbar text-white container mx-auto p-4">
                 <div className="navbar-start">
                     <img className="w-16" src={logo} alt="" />
@@ -25,10 +25,20 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn bg-[#405AFF] text-white border-none hover:bg-[#405AFF] font-normal">Download Resume <FaDownload /></button>
+                    <button className="btn bg-[#405AFF] text-white border-none hover:bg-[#405AFF] font-normal">
+                        <a
+                            target=""
+                            download="resume.pdf"
+                            href="https://docs.google.com/document/d/1VcMgyRsNVOv8mtfFs_2aLwh_Jhsf8OD8k_n5TU1NsAs/export?format=pdf"
+                            className="flex gap-2 items-center"
+                        >
+                            Download Resume <FaDownload />
+                        </a>
+                    </button>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <IoMdMenu />
+                            {/* https://docs.google.com/document/d/1VcMgyRsNVOv8mtfFs_2aLwh_Jhsf8OD8k_n5TU1NsAs/edit?usp=sharing */}
 
                         </div>
                         <ul
