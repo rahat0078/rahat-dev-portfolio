@@ -13,7 +13,7 @@ const Contact = () => {
                         <label className="label">
                             <span className="label-text text-white">Name</span>
                         </label>
-                        <input type="email" placeholder="Enter Your Name" className="input input-bordered input-accent bg-transparent w-full" required />
+                        <input type="text" placeholder="Enter Your Name" className="input input-bordered input-accent bg-transparent w-full" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
@@ -25,7 +25,7 @@ const Contact = () => {
                         <label className="label">
                             <span className="label-text text-white">Message</span>
                         </label>
-                        <textarea className="textarea textarea-accent bg-transparent w-full" placeholder="Bio"></textarea>
+                        <textarea className="textarea textarea-accent bg-transparent w-full" placeholder="Drop a message"></textarea>
 
                     </div>
                     <div className="form-control mt-6">

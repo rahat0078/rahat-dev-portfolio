@@ -4,7 +4,7 @@ import { FaDownload, FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react
 
 const Banner = () => {
     return (
-        <div id="home" className="container mx-auto py-16 text-white flex flex-col sm:flex-row gap-4 justify-between items-center px-6 lg:px-4">
+        <div id="home" className="container mx-auto py-20 text-white flex flex-col sm:flex-row gap-4 justify-between items-center px-6 lg:px-4">
             <div className="space-y-2 md:space-y-3 lg:space-y-4 flex-1">
                 <span className="text-xl md:text-2xl">Hello, I&apos;m</span>
                 <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold"> Ruhul Amin Rahat</h1>
@@ -36,7 +36,7 @@ const Banner = () => {
                         <a target="_blank" href="https://www.linkedin.com/"><FaLinkedin /></a>
                     </button>
                     <button className="text-4xl border-none text-[#E01EDB] ">
-                        <FaInstagram />
+                        <a target="_blank" href="https://www.instagram.com/accounts/login/?hl=en"><FaInstagram /></a>
                     </button>
                 </div>
                 <a

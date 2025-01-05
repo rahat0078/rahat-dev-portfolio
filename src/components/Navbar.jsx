@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div className="sticky top-0 z-50 bg-[#212643] w-full">
-            <div className="navbar text-white container mx-auto p-4">
+            <div className="navbar text-white container mx-auto px-4">
                 <div className="navbar-start">
                     <img className="w-16" src={logo} alt="" />
                 </div>

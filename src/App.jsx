@@ -18,7 +18,7 @@ function App() {
         <section className="bg-[#29303C]">
           <AboutMe />
         </section>
-        <section className="bg-[#212643] h-[500px]">
+        <section>
           <Skills />
         </section>
         {/* projects  */}
