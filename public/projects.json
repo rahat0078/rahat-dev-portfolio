@@ -1,0 +1,34 @@
+[
+    {
+        "_id": "001",
+        "projectName": "EduLinker",
+        "projectImg": "https://i.ibb.co.com/bWd0nqG/Screenshot-2025-01-05-103453.png",
+        "technology": ["React", "TailwindCss", "Firebase", "MongoDB", "Express", "NodeJS"],
+        "description": "EduLinker is an interactive web application for collaborative group study, where friends can create, submit, and grade assignments.",
+        "website": "https://edu-linker-f8e89.web.app/",
+        "clientCode": "https://github.com/rahat0078/edu-linker-client",
+        "serverCode": "https://github.com/rahat0078/edu-linker-server",
+        "message": "While working on this project, I faced challenges like optimizing responsiveness and ensuring smooth navigation. To enhance the user experience, I plan to add engaging animations and refine the overall design for a more modern and visually appealing interface."
+    },
+    {
+        "_id": "002",
+        "projectName": "FundSpring",
+        "projectImg": "https://i.ibb.co.com/fkgbKWX/Screenshot-2025-01-05-104235.png",
+        "technology": ["React", "TailwindCss", "Firebase", "MongoDB", "Express", "NodeJS", "JWT"],
+        "description": "FundSpring, a platform designed to bring together people who want to make a difference by supporting meaningful causes. Whether you're looking to contribute, raise funds, or volunteer, FundSpring is here to connect you with the right opportunities.",
+        "website": "https://fund-spring.web.app/",
+        "clientCode": "https://github.com/rahat0078/fund-spring-client",
+        "serverCode": "https://github.com/rahat0078/fund-spring-server",
+        "message": "Faced challenges with responsiveness and navigation. Planning to add animations and refine the design for a better user experience."
+    },
+    {
+        "_id": "003",
+        "projectName": "ChillSheild",
+        "projectImg": "https://i.ibb.co.com/L59pLvJ/Screenshot-2025-01-05-104628.png",
+        "technology": ["React", "TailwindCss", "Firebase", "HTML", "ReactRouter"],
+        "description": "The Winter Clothing Donation Website is a platform designed to connect donors with volunteers to help vulnerable communities across Bangladesh during the harsh winter season. It provides a simple and accessible way for users to contribute by donating winter clothes like jackets, blankets, and sweaters. ",
+        "website": "https://chilsheild-auth.web.app/",
+        "clientCode": "https://github.com/rahat0078/chillShield",
+        "message": "This project currently lacks a backend. I plan to integrate MongoDB to manage data efficiently and enhance functionality."
+    }
+]

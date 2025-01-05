@@ -5,7 +5,7 @@ import profile from '../assets/profile-Layer-1.png';
 
 const Contact = () => {
     return (
-        <div className="py-12 text-white container mx-auto">
+        <div id="contact" className="py-12 text-white container mx-auto">
             <h2 className="text-center text-2xl md:text-4xl lg:text-5xl font-bold">Contact Me</h2>
             <div className="flex flex-col md:flex-row justify-between gap-8 my-8">
                 <form className="flex-1">
