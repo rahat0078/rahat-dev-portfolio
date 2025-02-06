@@ -1,6 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
-import profile from '../assets/profile.png'
-import { FaDownload, FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import profile from '../assets/profile.webp'
+import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
     return (
@@ -33,15 +33,12 @@ const Banner = () => {
                         <a target="_blank" href="https://github.com/rahat0078"><FaGithub /></a>
                     </button>
                     <button className="text-4xl border-none text-[#0963F6]">
-                        <a target="_blank" href="https://www.linkedin.com/"><FaLinkedin /></a>
-                    </button>
-                    <button className="text-4xl border-none text-[#E01EDB] ">
-                        <a target="_blank" href="https://www.instagram.com/accounts/login/?hl=en"><FaInstagram /></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/ruhul-amin-rahat17/"><FaLinkedin /></a>
                     </button>
                 </div>
                 <a
                     download="resume.pdf"
-                    href="https://docs.google.com/document/d/1VcMgyRsNVOv8mtfFs_2aLwh_Jhsf8OD8k_n5TU1NsAs/export?format=pdf"
+                    href="https://docs.google.com/document/d/1Gsr_19XgTR7HYaBY-uT8EWHWEAZUjdRijkHJnZqg-H4/export?format=pdf"
                     className="btn btn-outline text-white border-[#405AFF] hover:bg-[#405AFF] font-normal"
                 >
                     Download Resume <FaDownload />

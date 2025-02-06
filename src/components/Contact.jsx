@@ -1,14 +1,25 @@
-import { FaPhoneAlt, } from "react-icons/fa";
+import { FaWhatsapp, } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import profile from '../assets/profile-Layer-1.png';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
+
+    const submitForm = (e) => {
+            e.preventDefault(); 
+            toast.success('Message Sent Successfully')
+
+            e.target.reset();  
+
+    }
+
+
     return (
         <div id="contact" className="py-12 text-white container mx-auto">
             <h2 className="text-center text-2xl md:text-4xl lg:text-5xl font-bold">Contact Me</h2>
             <div className="flex flex-col md:flex-row justify-between gap-8 my-8">
-                <form className="flex-1">
+                <form onSubmit={submitForm} className="flex-1">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text text-white">Name</span>
@@ -42,7 +53,7 @@ const Contact = () => {
                     <div className="space-y-2">
                         <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl"><FaLocationDot /></span> Kurigram, Rangpur, Bangladesh</p>
 
-                        <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl "><FaPhoneAlt /></span> +880 1997115843</p>
+                        <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl "><FaWhatsapp /></span> +880 1997115843</p>
 
                         <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl"><MdOutlineAttachEmail /></span> rarahat1710@gmail.com</p>
 
@@ -57,6 +68,7 @@ const Contact = () => {
                 </div>
 
             </div>
+            <Toaster />
         </div>
     );
 };

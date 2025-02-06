@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="font-Roboto ">
       <Navbar/>
-      <header
+      <header 
         style={{ background: "radial-gradient(circle, rgba(33,38,67,0.9044994706867122) 0%, rgba(33,38,67,1) 36%, rgba(33,38,67,0.9941353250284489) 69%, rgba(33,38,67,0.9773286023393732) 100%)" }}>
         <Banner />
       </header>

@@ -28,7 +28,6 @@ const Details = () => {
 
                     <div className="mb-8 ml-2">
                         <p className="text-3xl md:text-5xl font-semibold pb-3">{projectName}</p>
-                        <p className="text-xl text-gray-300">{description}</p>
                     </div>
                     <div className="h-auto mb-6 md:mb-8">
                         <img className="w-full h-full rounded-xl" src={projectImg} alt="" />

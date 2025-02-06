@@ -29,7 +29,7 @@ const Navbar = () => {
                         <a
                             target=""
                             download="resume.pdf"
-                            href="https://docs.google.com/document/d/1VcMgyRsNVOv8mtfFs_2aLwh_Jhsf8OD8k_n5TU1NsAs/export?format=pdf"
+                            href="https://docs.google.com/document/d/1Gsr_19XgTR7HYaBY-uT8EWHWEAZUjdRijkHJnZqg-H4/export?format=pdf"
                             className="flex gap-2 items-center"
                         >
                             Download Resume <FaDownload />
@@ -38,8 +38,6 @@ const Navbar = () => {
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <IoMdMenu />
-                            {/* https://docs.google.com/document/d/1VcMgyRsNVOv8mtfFs_2aLwh_Jhsf8OD8k_n5TU1NsAs/edit?usp=sharing */}
-
                         </div>
                         <ul
                             tabIndex={0}

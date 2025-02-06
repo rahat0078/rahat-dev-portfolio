@@ -1,5 +1,5 @@
 import { IoCodeSlash } from 'react-icons/io5';
-import profile2 from '../assets/profile_2-Photoroom.png';
+import profile2 from '../assets/profile_2-Photoroom.webp';
 
 const AboutMe = () => {
     return (
@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <h5 className='flex items-center gap-2 text-2xl font-semibold'>Front End Web Developer <IoCodeSlash />
                 </h5>
                 <p className='max-w-2xl text-lg text-gray-300'>
-                    <span className='text-xl text-[#a7b2fc] font-semibold'>Hi, I&apos;m Rahat!</span> I&apos;m a passionate MERN Stack Developer who loves creating web applications that make a difference. Programming challenges me to think critically, and I&apos;m always excited to learn new technologies. <br />
+                    <span className='text-xl text-[#a7b2fc] font-semibold'>Hi, I&apos;m Rahat!</span> I&apos;m a MERN Stack Developer who loves creating web applications that make a difference. Programming challenges me to think critically, and I&apos;m always excited to learn new technologies. <br />
                     Besides coding, I enjoy traveling to new places and diving into books. Traveling broadens my perspective, while reading helps me stay inspired and continuously grow.</p>
             </div>
             <div className='max-w-lg' data-aos="fade-right">
