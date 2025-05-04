@@ -13,7 +13,7 @@
     {
         "_id": "002",
         "projectName": "EduLinker",
-        "projectImg": "https://i.ibb.co.com/bWd0nqG/Screenshot-2025-01-05-103453.png",
+        "projectImg": "https://i.ibb.co.com/4nGm7LB5/Screenshot-2025-05-04-142204.png",
         "technology": ["React", "TailwindCss", "Firebase", "MongoDB", "Express", "NodeJS"],
         "description": "EduLinker is an interactive web application for collaborative group study, where friends can create, submit, and grade assignments.",
         "website": "https://edu-linker-f8e89.web.app/",
