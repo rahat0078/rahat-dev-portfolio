@@ -23,8 +23,7 @@ const Details = () => {
         <div className="" style={{ background: "radial-gradient(circle, rgba(33,38,67,0.9044994706867122) 0%, rgba(33,38,67,1) 36%, rgba(33,38,67,0.9941353250284489) 69%, rgba(33,38,67,0.9773286023393732) 100%)" }}>
 
             <div className="w-full md:w-10/12 mx-auto px-4 py-12">
-                <div className="md:p-6 max-w-3xl mb-6 mx-auto w-full"><Link to='/' className="btn btn-primary">Back to home<FaHome /></Link></div>
-                <div className="md:p-6 max-w-4xl w-full mx-auto p-3 border shadow-xl rounded-xl text-white">
+                <div className="md:p-6 max-w-4xl w-full mx-auto p-3 bg-[#5d6eba20] shadow rounded-md text-white">
 
                     <div className="mb-8 ml-2">
                         <p className="text-3xl md:text-5xl font-semibold pb-3">{projectName}</p>
@@ -70,6 +69,8 @@ const Details = () => {
                             </a>}
 
                         </div>
+                        
+                    <Link to='/' className="btn btn-primary mt-4 ">home<FaHome /></Link>
                     </div>
                 </div>
 

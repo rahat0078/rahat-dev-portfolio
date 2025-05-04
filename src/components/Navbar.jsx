@@ -27,9 +27,8 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <button className="btn bg-[#405AFF] text-white border-none hover:bg-[#405AFF] font-normal">
                         <a
-                            target=""
+                            href="https://drive.google.com/uc?export=download&id=1PPLQDDcReJX8ar4GI-AnJO12Ik9HPp-U"
                             download="resume.pdf"
-                            href="https://docs.google.com/document/d/1Gsr_19XgTR7HYaBY-uT8EWHWEAZUjdRijkHJnZqg-H4/export?format=pdf"
                             className="flex gap-2 items-center"
                         >
                             Download Resume <FaDownload />

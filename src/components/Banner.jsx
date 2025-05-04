@@ -38,7 +38,7 @@ const Banner = () => {
                 </div>
                 <a
                     download="resume.pdf"
-                    href="https://docs.google.com/document/d/1Gsr_19XgTR7HYaBY-uT8EWHWEAZUjdRijkHJnZqg-H4/export?format=pdf"
+                    href="https://drive.google.com/uc?export=download&id=1nsVnCrdb2E46W1vJF9_FkwaUoaCcsUJQ"
                     className="btn btn-outline text-white border-[#405AFF] hover:bg-[#405AFF] font-normal"
                 >
                     Download Resume <FaDownload />
