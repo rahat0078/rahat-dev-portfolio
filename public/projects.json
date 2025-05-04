@@ -2,7 +2,7 @@
     {
         "_id": "001",
         "projectName": "Learnament",
-        "projectImg": "https://i.ibb.co.com/FPX5KTD/Screenshot-2025-05-04-105655.png",
+        "projectImg": "https://i.ibb.co.com/0R4B0zsG/Screenshot-2025-05-04-112059.png",
         "technology": ["React", "NodeJS", "MongoDB", "Express Js", "JWT", "Firebase", "TailwindCss","ReactRouter"],
         "description": "Learnament is a modern educational platform designed to revolutionize skill learning and class management. Built with the MERN stack, it provides seamless interaction between educational institutions, tutors, and students.",
         "website": "https://learnament.web.app/",
