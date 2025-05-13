@@ -16,9 +16,9 @@ const Contact = () => {
 
 
     return (
-        <div id="contact" className="py-12 text-white container mx-auto">
-            <h2 className="text-center text-2xl md:text-4xl lg:text-5xl font-bold">Contact Me</h2>
-            <div className="flex flex-col md:flex-row justify-between gap-8 my-8">
+        <div id="contact" className="section-gap text-white container mx-auto">
+            <h2 className="text-center title pb-4 md:pb-6">Contact Me</h2>
+            <div className="flex flex-col md:flex-row justify-between gap-8">
                 <form onSubmit={submitForm} className="flex-1">
                     <div className="form-control">
                         <label className="label">
@@ -51,11 +51,11 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="space-y-2">
-                        <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl"><FaLocationDot /></span> Kurigram, Rangpur, Bangladesh</p>
+                        <p className="flex items-center text-gray-300 gap-2"><span className="text-[#405AFF] text-2xl"><FaLocationDot /></span> Kurigram, Rangpur, Bangladesh</p>
 
-                        <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl "><FaWhatsapp /></span> +880 1997115843</p>
+                        <p className="flex items-center  text-gray-300  gap-2"><span className="text-[#405AFF] text-2xl "><FaWhatsapp /></span> +880 1997115843</p>
 
-                        <p className="flex items-center font-semibold text-gray-300 text-xl gap-2"><span className="text-[#405AFF] text-2xl"><MdOutlineAttachEmail /></span> rarahat1710@gmail.com</p>
+                        <p className="flex items-center  text-gray-300  gap-2"><span className="text-[#405AFF] text-2xl"><MdOutlineAttachEmail /></span> rarahat1710@gmail.com</p>
 
                     </div>
                     <iframe
@@ -63,7 +63,7 @@ const Contact = () => {
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        className="rounded w-full max-w-2xl h-[250px] md:h-[350px]"
+                        className="rounded w-full max-w-lg h-[120px] md:h-[200px]"
                     ></iframe>
                 </div>
 

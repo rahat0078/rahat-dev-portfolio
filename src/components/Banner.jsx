@@ -3,13 +3,13 @@ import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div id="home" className="container mx-auto py-20 text-white flex flex-col sm:flex-row gap-4 justify-between items-center px-6 lg:px-4">
+        <div id="home" className="section-gap container mx-auto text-white flex flex-col sm:flex-row gap-4 justify-between items-center px-6 lg:px-4">
             <div className="space-y-2 md:space-y-3 lg:space-y-4 flex-1">
                 <span className="text-xl md:text-2xl">Hello, I&apos;m</span>
                 <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold"> Ruhul Amin Rahat</h1>
-                <h3 className="text-xl md:text-2xl lg:text-4xl">
+                <h3 className="title font-normal">
                     A Passionate{' '}
-                    <span className="font-bold text-[#555bff]">
+                    <span className="font-semibold text-[#555bff]">
                         {/* Style will be inherited from the parent element */}
                         <Typewriter
                             words={['FrontEnd Web Developer', 'Web Designer', 'MERN Stack Developer',]}

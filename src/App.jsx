@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="font-Roboto ">
-      <Navbar/>
-      <header 
+      <Navbar />
+      <header
         style={{ background: "radial-gradient(circle, rgba(33,38,67,0.9044994706867122) 0%, rgba(33,38,67,1) 36%, rgba(33,38,67,0.9941353250284489) 69%, rgba(33,38,67,0.9773286023393732) 100%)" }}>
         <Banner />
       </header>
@@ -18,20 +18,18 @@ function App() {
         <section className="bg-[#29303C]">
           <AboutMe />
         </section>
-        <section>
-          <Skills />
-        </section>
+        <Skills />
         {/* projects  */}
-        <section className="bg-[#29303C]">
-          <Projects/>
+        <section className="bg-[#29303C] section-gap">
+          <Projects />
         </section>
-        <section style={{ background: "radial-gradient(circle, rgba(33,38,67,0.9044994706867122) 0%, rgba(33,38,67,1) 36%, rgba(33,38,67,0.9941353250284489) 69%, rgba(33,38,67,0.9773286023393732) 100%)" }}>
+        <section className="section-gap" style={{ background: "radial-gradient(circle, rgba(33,38,67,0.9044994706867122) 0%, rgba(33,38,67,1) 36%, rgba(33,38,67,0.9941353250284489) 69%, rgba(33,38,67,0.9773286023393732) 100%)" }}>
           <Contact />
         </section>
       </main>
 
 
-     
+
 
 
     </div>

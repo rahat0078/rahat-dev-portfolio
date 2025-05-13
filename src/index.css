@@ -7,6 +7,9 @@
     @apply bg-[#384ed8] px-4 py-2 text-white border-none rounded-md hover:bg-[#485ce0] font-normal hover:transition hover:duration-200 ease-in-out
 }
 
-/* .section-gap{
-    @apply 
-} */
+.section-gap{
+    @apply lg:py-12 md:py-8 py-6
+}
+.title{
+    @apply text-2xl md:text-3xl lg:text-4xl font-semibold
+}

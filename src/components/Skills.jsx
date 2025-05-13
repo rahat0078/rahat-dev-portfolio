@@ -24,11 +24,11 @@ const Skills = () => {
 
 
     return (
-        <div className="bg-cover bg-center bg-no-repeat" style={{
+        <section className="bg-cover bg-center bg-no-repeat" style={{
             backgroundImage: `linear-gradient(rgba(33, 38, 67, 0.85), rgba(33, 38, 67, 0.85)), url(${skillsBG})`
         }}>
-            <div className='container mx-auto md:py-16'>
-                <h2 className='text-center text-white py-6 text-2xl md:text-4xl lg:text-5xl font-bold'> My Skills & Education</h2>
+            <div className='container mx-auto section-gap'>
+                <h2 className='text-center text-white pb-4 md:pb-6 title'> My Skills & Education</h2>
 
                 <div role="tablist" className="tabs tabs-bordered w-48 mx-auto">
                     <a onClick={() => setSkills(true)} role="tab" className={`tab text-lg  ${skills ? "tab-active text-gray-100 " : "text-gray-500"}`}>Skills</a>
@@ -123,7 +123,7 @@ const Skills = () => {
 
 
             </div>
-        </div>
+        </section>
     );
 };
 

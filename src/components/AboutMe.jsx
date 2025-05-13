@@ -2,11 +2,11 @@ import { IoCodeSlash } from 'react-icons/io5';
 
 const AboutMe = () => {
     return (
-        <div id='about' className="container mx-auto min-h-screen py-12 flex flex-col md:flex-row-reverse gap-6 px-8 justify-between md:px-[60px] lg:px[230px] items-center
+        <div id='about' className="container mx-auto section-gap flex flex-col md:flex-row-reverse px-4 gap-6 md:gap-8 lg:gap-12 xl:justify-between xl:px-28 items-center
         ">
 
             <div data-aos="fade-left" className='text-white space-y-3'>
-                <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>About <span className='text-[#405AFF]'>Me</span></h2>
+                <h2 className='title'>About <span className='text-[#405AFF]'>Me</span></h2>
                 <h5 className='flex items-center gap-2 text-2xl font-semibold'>Front End Web Developer <IoCodeSlash />
                 </h5>
                 <p className='max-w-2xl text-lg text-gray-300'>

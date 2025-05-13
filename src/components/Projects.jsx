@@ -13,8 +13,8 @@ const Projects = () => {
 
 
     return (
-        <div id="projects" className="text-white py-8 md:py-16 container mx-auto">
-            <h2 className="text-center text-2xl md:text-4xl lg:text-5xl font-bold pb-6">My Projects</h2>
+        <div id="projects" className="text-white container mx-auto">
+            <h2 className="text-center pb-4 md:pb-6 title">My Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
                 {
                     projects.map(project => <div key={project._id} className="card card-compact bg-[#252A46] shadow-xl">
