@@ -46,7 +46,7 @@ const Details = () => {
 
 
                         <div className='flex flex-wrap gap-3 items-center'>
-                            <a className="btn btn-primary" target="_blank" href={website}>Website <FaExternalLinkAlt /></a>
+                            <a className="btn-primary flex justify-center items-center gap-2" target="_blank" href={website}>Website <FaExternalLinkAlt /></a>
                             <a data-tooltip-id="my-tooltip"
                                 data-tooltip-content="Client Code"
                                 data-tooltip-variant="info"
@@ -70,7 +70,9 @@ const Details = () => {
 
                         </div>
                         
-                    <Link to='/' className="btn btn-primary mt-4 ">home<FaHome /></Link>
+                    <button className="btn-primary mt-4">
+                        <Link to='/' className="flex items-center justify-center gap-2">home<FaHome /></Link>
+                    </button>
                     </div>
                 </div>
 

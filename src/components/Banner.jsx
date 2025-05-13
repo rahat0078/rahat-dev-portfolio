@@ -36,11 +36,11 @@ const Banner = () => {
                     </button>
                 </div>
                 <a
-                    download="resume.pdf"
-                    href="https://drive.google.com/uc?export=download&id=1nsVnCrdb2E46W1vJF9_FkwaUoaCcsUJQ"
-                    className="btn btn-outline text-white border-[#405AFF] hover:bg-[#405AFF] font-normal"
+                    href="https://drive.google.com/file/d/1Jd_URAzZEGvNPTm6JfUCPCS2IRXRtr8H/view?usp=sharing"
+                    target="_blank"
+                    className="btn btn-outline px-4 py-2 rounded-md text-white border-[#405AFF] hover:bg-[#405AFF] font-normal"
                 >
-                    Download Resume <FaDownload />
+                     Resume <FaDownload />
                 </a>
             </div>
             <div className="md:max-w-lg max-w-sm flex-1">

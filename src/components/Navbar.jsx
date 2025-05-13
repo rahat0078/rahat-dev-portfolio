@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="sticky top-0 z-50 bg-[#212643] w-full">
             <div className="navbar text-white container mx-auto px-4">
                 <div className="navbar-start">
-                    <img className="w-16" src={logo} alt="" />
+                    <img className="w-14" src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-2 text-lg">
@@ -25,13 +25,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn bg-[#405AFF] text-white border-none hover:bg-[#405AFF] font-normal">
+                    <button className="btn-primary">
                         <a
-                            href="https://drive.google.com/uc?export=download&id=1PPLQDDcReJX8ar4GI-AnJO12Ik9HPp-U"
-                            download="resume.pdf"
+                            href="https://drive.google.com/file/d/1Jd_URAzZEGvNPTm6JfUCPCS2IRXRtr8H/view?usp=sharing"
+                            target="_blank"
                             className="flex gap-2 items-center"
                         >
-                            Download Resume <FaDownload />
+                            Resume <FaDownload />
                         </a>
                     </button>
                     <div className="dropdown">

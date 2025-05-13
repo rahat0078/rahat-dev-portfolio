@@ -40,7 +40,7 @@ const Contact = () => {
 
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn bg-[#405AFF] text-white border-none hover:bg-[#405AFF] font-normal">Send Message</button>
+                        <button className="btn-primary">Send Message</button>
                     </div>
                 </form>
 

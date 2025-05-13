@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary {
+    @apply bg-[#384ed8] px-4 py-2 text-white border-none rounded-md hover:bg-[#485ce0] font-normal hover:transition hover:duration-200 ease-in-out
+}
+
+/* .section-gap{
+    @apply 
+} */

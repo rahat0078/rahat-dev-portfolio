@@ -26,8 +26,8 @@ const Projects = () => {
                         <div className="card-body">
                             <h2 className="card-title">{project.projectName}</h2>
                             <p className="text-[16px] text-gray-300">{project.description}</p>
-                            <div className="card-actions justify-end">
-                                <Link to={`/details/${project._id}`} className="btn bg-[#405AFF] text-white border-none hover:bg-[#405AFF] font-normal">View Details</Link>
+                            <div className="card-actions justify-end pt-4">
+                                <Link to={`/details/${project._id}`} className="btn-primary">View Details</Link>
                             </div>
                         </div>
                     </div>)
