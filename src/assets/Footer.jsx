@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="footer footer-center bg-neutral text-neutral-content p-10">
   <aside>
-    <img className='max-w-48 w-full' src={logo} alt="" />
+    <img className='max-w-40 w-full' src={logo} alt="" />
     <h2 className="text-2xl font-semibold mt-6">Ruhul Amin Rahat</h2>
     <p className="text-md">MERN Stack Developer | FrontEnd Focused</p>
   </aside>

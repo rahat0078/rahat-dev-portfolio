@@ -1,5 +1,4 @@
 import { Typewriter } from "react-simple-typewriter";
-import profile from '../assets/profile.webp'
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
@@ -44,8 +43,8 @@ const Banner = () => {
                     Download Resume <FaDownload />
                 </a>
             </div>
-            <div className="lg:max-w-xl sm:max-w-lg max-w-sm flex-1">
-                <img className="border-4 border-[#555bff] rounded-full w-full" src={profile} alt="" />
+            <div className="md:max-w-lg max-w-sm flex-1">
+                <img className="border-4 border-[#555bff] rounded-full w-full" src="https://i.ibb.co.com/Y4z9dDbj/profile.webp" alt="" />
             </div>
 
         </div>

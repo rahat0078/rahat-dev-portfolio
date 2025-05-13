@@ -31,8 +31,8 @@ const Skills = () => {
                 <h2 className='text-center text-white py-6 text-2xl md:text-4xl lg:text-5xl font-bold'> My Skills & Education</h2>
 
                 <div role="tablist" className="tabs tabs-bordered w-48 mx-auto">
-                    <a onClick={() => setSkills(true)} role="tab" className={`tab text-lg ${skills ? "tab-active" : ""}`}>Skills</a>
-                    <a onClick={() => setSkills(false)} role="tab" className={`tab text-lg ${skills ? "" : "tab-active"}`}>Education</a>
+                    <a onClick={() => setSkills(true)} role="tab" className={`tab text-lg  ${skills ? "tab-active text-gray-100 " : "text-gray-500"}`}>Skills</a>
+                    <a onClick={() => setSkills(false)} role="tab" className={`tab text-lg ${skills ? "text-gray-500" : "tab-active text-gray-100"}`}>Education</a>
                 </div>
 
 
