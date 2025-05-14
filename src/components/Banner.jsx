@@ -36,7 +36,7 @@ const Banner = () => {
                     </button>
                 </div>
                 <a
-                    href="https://drive.google.com/file/d/1jUJS-EUMLJMls5DIBBhQJeXFybKL8-Hh/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1gRtGk9Wrsm-jR4-PYz3EruEbQ2iRX79x/view?usp=sharing"
                     target="_blank"
                     className="btn btn-outline px-4 py-2 rounded-md text-white border-[#405AFF] hover:bg-[#405AFF] font-normal"
                 >

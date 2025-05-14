@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <button className="btn-primary">
                         <a
-                            href="https://drive.google.com/file/d/1jUJS-EUMLJMls5DIBBhQJeXFybKL8-Hh/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1gRtGk9Wrsm-jR4-PYz3EruEbQ2iRX79x/view?usp=sharing"
                             target="_blank"
                             className="flex gap-2 items-center"
                         >
